@@ -1,5 +1,5 @@
 # OTUpload
-This will help you set up a cronjob that will trigger a script that triggers an aws-upload back up of your OriginTrail node. You will receive a Push notification whenever ever the trigger script completes or fails. If the upload trigger does fail, the notification will include log statements to identify the issue. THIS WILL NOT ALERT YOU IF THE BACKUP PROCESS FAILED, ONLY IF IT FAILED TO TRIGGER.
+This will help you set up a cronjob that will trigger a script that triggers an aws-upload back up of your OriginTrail node. You will receive a Push notification whenever the trigger script completes or fails. If the upload trigger does fail, the notification will include log statements to identify the issue. THIS WILL NOT ALERT YOU IF THE BACKUP PROCESS FAILED, ONLY IF IT FAILED TO TRIGGER.
 <br><br>
 Follow the isntructions provided by the team here: https://knowledge-base.origintrail.io/en/articles/4255355-how-to-setup-auto-backup-script-which-uploads-data-to-amazon-s3-instance . For step 2/3 in the instructions, use this script instead of creating a new bash script.
 <br><br>
