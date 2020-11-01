@@ -34,4 +34,4 @@ Add a Cron job to the bottom of your crontab to trigger the script. Test running
 <li>Edit and Paste the command below to the end of your crontab. The setting below will trigger the upload once a day at 8pm est.</li>
 </ol>
 
-0 0 * * * root cd ~/path/to/my/script/ && node upload.js
+0 0 * * 0 root cd ~/path/to/my/script/ && node upload.js
